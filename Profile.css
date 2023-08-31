@@ -1,0 +1,203 @@
+
+
+.background{
+    background-image:url("images/Officebk.png");
+    position: relative;
+    backface-visibility:inherit;
+    height: 500px;
+    scroll-behavior: smooth;
+    background-size: auto;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    
+}
+
+.img-pic {
+    border: 3px solid sandybrown;
+}
+
+.container{
+    margin-top: 50px;
+}
+.navbar-nav a:hover {
+   color: white; 
+    }
+
+.container1{
+    background-color: rgb(223, 135, 20);
+    width: 100%;  
+}
+
+.profile{
+    width: 40%;
+    height: 400px;
+    float: left;
+}
+.details{
+    width: 55%;
+    height: 400px;
+    float: right;
+}
+
+.container2{
+    background-color: rgb(15, 14, 13);
+    position:relative;
+}
+
+.container2 i{
+    font-size: 150px;
+
+}
+.container2 i:hover{
+    background: rgb(10, 10, 10);
+    border-radius: 60px;
+    box-shadow: 0 0 20px rgb(240, 161, 57);
+}
+.container2 img:hover{
+    background: rgb(10, 10, 10);
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgb(240, 161, 57);  
+}
+
+.container3{
+    background-color: white;
+    position: relative;
+}
+.container3 img:hover{
+   border-radius: 60px;
+    box-shadow: 0 0 20px rgb(240, 161, 57);
+}
+
+.col-4 img{
+    border-radius: 60px;
+    border-color: coral;
+}
+
+.col-4 img:hover{
+    border-radius: 60px;
+    box-shadow: 0 0 20px rgb(240, 161, 57);
+}
+
+
+h1{
+    width: 100px;
+    height: 50px;
+    font-style:unset ;
+    color: chocolate;
+    width: 160px;
+    height: 50px;
+    background: transparent;
+    border: 3px solid lightsalmon;
+    border-radius: 70%;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(240, 161, 57);
+}
+
+.img-2{
+    padding-left: 100px;
+    width: 30%;
+}
+
+::before, ::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .homelogo a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid lightsalmon;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(238, 134, 23);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+
+  }
+  .homelogo a:hover{
+        background: rgb(242, 169, 32);
+        color: rgb(236, 12, 31);
+        box-shadow: 0 0 20px rgb(240, 161, 57);
+
+  }
+
+  h2{
+    color: rgb(224, 147, 46);
+    text-align: center;
+  }
+  .cont{
+    background-color: white;
+    height: 700px;
+    width: 100%;
+    position:relative;
+    background-size: auto;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+
+  }
+  
+  /*.Mapdiv{
+    height: 500px;
+    width: 30%;
+    margin-left: 10px;
+    float: left;
+  }
+  .contdiv{
+    height: 500px;
+    width: 30%;
+    margin-right: 300px;
+    float: right;
+    
+  }*/
+  
+  .btndiv{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid lightsalmon;
+    border-radius: 80%;
+    font-size: 20px;
+    color: rgb(238, 134, 23);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+  }
+  .btndiv:hover{
+        background: rgb(242, 169, 32);
+        color: rgb(3, 242, 31);
+        box-shadow: 0 0 20px rgb(240, 161, 57);
+
+  }
+
+  .footer{
+    background-color: black;
+    width: 100%;
+  }
+
+  .top{
+    position: fixed;
+    bottom: 2.1rem;
+    right: 2.1rem;
+    margin-right: 10px;
+  }
+  .top i{
+    color: rgb(223, 135, 20);
+    background: rgb(234, 191, 135);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 0.5rem;
+  }
+  .top i:hover{
+    color: rgb(235, 154, 40);
+    box-shadow: 0 0 20px rgb(240, 161, 57);
+  }
+   
